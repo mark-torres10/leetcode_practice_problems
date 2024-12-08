@@ -31,3 +31,6 @@ plt.ylim(-100, 2000)
 
 # Show the plot
 plt.show()
+
+# Save the plot as a PNG file with high DPI for better quality
+plt.savefig('complexity_curves.png', dpi=300, bbox_inches='tight')
